@@ -10,7 +10,7 @@ This project automates the process of generating **monthly financial reports** (
 
 - 🔹 **Google Sheets Integration** — Reads initial balances and transaction file name directly from cells, and writes final reports back to the sheet.  
 - 🧮 **OOP-Powered Transformations** — Organized logic into modular classes:
-  - `chequeing_recon()` and `saving_recon()` — generate reconciliation reports
+  - `chequeing_recon_transform()` and `saving_recon_transform()` — generate reconciliation reports
   - `income_transform()` and `expenditure_transform()` — generate income & expenditure reports
 - ⚡ **Automation Rules**
   - Excludes internal transfers and e-transfer fees from income/expenditure
@@ -23,10 +23,14 @@ This project automates the process of generating **monthly financial reports** (
 
 ## 🧭 Project Structure
 
-├── api_setup_and_runner.py # Handles Google Sheet API connection and update logic
-├── transaction_transformer.py # Core transformation logic with OOP classes
-├── main_colab.ipynb # Google Colab notebook for end users
+├── report_auto.py # Handles Google Sheet API connection and update logic
+
+├── roc.py # Core transformation logic with OOP classes
+
+├── MonthlyReportGenerate.ipynb # Google Colab notebook for end users
+
 ├── README.md
+
 └── .gitignore
 
 ---
