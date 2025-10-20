@@ -27,7 +27,7 @@ This project automates the process of generating **monthly financial reports** (
 
 ├── roc.py # Core transformation logic with OOP classes
 
-├── MonthlyReportGenerate.ipynb # Google Colab notebook for end users
+├── Financial_Report_Automation.ipynb # Google Colab notebook for end users
 
 ├── README.md
 
