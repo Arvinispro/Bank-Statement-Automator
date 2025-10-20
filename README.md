@@ -1,5 +1,5 @@
 # Bank-Statement-Organizer-Automation
-A Python automation tool using Google Sheets API and OOP to generate monthly reconciliation and income–expenditure reports from chequeing and savings accounts. Runs fully in Google Colab with no local setup required, making financial reporting easy for non-coders.
+An automation tool using Google Sheets API and Python to generate monthly Reconciliation and Income–Expenditure reports from chequeing and savings accounts. Runs fully in Google Colab with no local setup required, making financial reporting easy for non-coders.
 # 💰 Automated Bank Transaction Reconciliation & Reporting
 
 This project automates the process of generating **monthly financial reports** (reconciliation and income–expenditure sheets) using **Python**, **Google Sheets API**, and **Google Colab** — so even non-coders can create clean reports with one click.
